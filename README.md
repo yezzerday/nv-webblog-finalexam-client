@@ -1,6 +1,6 @@
 # Server Side Programming Final Exam 
-# Semester 1 Year 2565
-# ชุดที่ 2 Frontend
+## Semester 1 Year 2565
+### ชุดที่ 2 Frontend
 
 1.	fork project จาก https://github.com/nattaponkum/nv-webblog-65final-client.git (5 point)
 2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.31.27.240:8081 (5 point) 
@@ -11,13 +11,13 @@
     โดยให้นำรหัสนิสิตตนเอง mod 4 ได้ค่าเท่าไหร่นั่นคือหมายเลข API ที่นิสิตต้องแก้ไขหน้า UI 
 เช่น รหัสนิสิต 63310001 % 4 = 1 ให้นิสิตทำ API หมายเลข 1. Car เป็นต้น
 
-# ตัวอย่าง Json payload สำหรับ API หมายเลขต่างๆ
-# 1. Car 
-(endpoint for get all cars: GET http://10.31.27.240:8081/cars)
-(endpoint for get 1 car: GET http://10.31.27.240:8081/car/carId)
-(endpoint for edit 1 car: PUT http://10.31.27.240:8081/car/carId)
-(endpoint for create 1 car: POST http://10.31.27.240:8081/car)
-(endpoint for delete 1 car: DELETE http://10.31.27.240:8081/car/carId)
+## ตัวอย่าง Json payload สำหรับ API หมายเลขต่างๆ
+### 1. Car 
+endpoint for get all cars: GET http://10.31.27.240:8081/cars  
+endpoint for get 1 car: GET http://10.31.27.240:8081/car/carId  
+endpoint for edit 1 car: PUT http://10.31.27.240:8081/car/carId  
+endpoint for create 1 car: POST http://10.31.27.240:8081/car  
+endpoint for delete 1 car: DELETE http://10.31.27.240:8081/car/carId  
 ```
 {
     "category": "Truck",
@@ -30,12 +30,12 @@
 }
 ```
 
-# 2. Course 
-(endpoint for get all courses: GET http://10.31.27.240:8081/courses)
-(endpoint for get 1 course: GET http://10.31.27.240:8081/course/courseId)
-(endpoint for edit 1 course: PUT http://10.31.27.240:8081/course/courseId)
-(endpoint for create 1 course: POST http://10.31.27.240:8081/course)
-(endpoint for delete 1 course: DELETE http://10.31.27.240:8081/course/courseId)
+### 2. Course 
+endpoint for get all courses: GET http://10.31.27.240:8081/courses  
+endpoint for get 1 course: GET http://10.31.27.240:8081/course/courseId  
+endpoint for edit 1 course: PUT http://10.31.27.240:8081/course/courseId  
+endpoint for create 1 course: POST http://10.31.27.240:8081/course  
+endpoint for delete 1 course: DELETE http://10.31.27.240:8081/course/courseId  
 ```
 {
     "title": "Server Side Programming",
@@ -47,12 +47,12 @@
 }
 ```
 
-# 3. Speaker 
-(endpoint for get all speakers: GET http://10.31.27.240:8081/speakers)
-(endpoint for get 1 speaker: GET http://10.31.27.240:8081/speaker/speakerId)
-(endpoint for edit 1 speaker: PUT http://10.31.27.240:8081/speaker/speakerId)
-(endpoint for create 1 speaker: POST http://10.31.27.240:8081/speaker)
-(endpoint for delete 1 speaker: DELETE http://10.31.27.240:8081/speaker/speakerId)
+### 3. Speaker 
+endpoint for get all speakers: GET http://10.31.27.240:8081/speakers  
+endpoint for get 1 speaker: GET http://10.31.27.240:8081/speaker/speakerId  
+endpoint for edit 1 speaker: PUT http://10.31.27.240:8081/speaker/speakerId  
+endpoint for create 1 speaker: POST http://10.31.27.240:8081/speaker  
+endpoint for delete 1 speaker: DELETE http://10.31.27.240:8081/speaker/speakerId  
 ```
 {
     "model": "STOCKWELL II",
@@ -64,12 +64,12 @@
 }
 ```
 
-# 4. Book 
-(endpoint for get all books: GET http://10.31.27.240:8081/books)
-(endpoint for get 1 book: GET http://10.31.27.240:8081/book/bookId)
-(endpoint for edit 1 book: PUT http://10.31.27.240:8081/book/bookId)
-(endpoint for create 1 book: POST http://10.31.27.240:8081/book)
-(endpoint for delete 1 book: DELETE http://10.31.27.240:8081/book/bookId)
+### 4. Book 
+endpoint for get all books: GET http://10.31.27.240:8081/books  
+endpoint for get 1 book: GET http://10.31.27.240:8081/book/bookId  
+endpoint for edit 1 book: PUT http://10.31.27.240:8081/book/bookId  
+endpoint for create 1 book: POST http://10.31.27.240:8081/book  
+endpoint for delete 1 book: DELETE http://10.31.27.240:8081/book/bookId  
 ```
 {
     "title": "Metaverse",

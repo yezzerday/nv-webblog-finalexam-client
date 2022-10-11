@@ -1,4 +1,5 @@
 # Server Side Programming Final Exam Semester 1 Year 2565
+# ชุดที่ 2 Frontend
 
 1.	fork project จาก https://github.com/nattaponkum/nv-webblog-65final-client.git (5 point)
 2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.31.27.240:8081 (5 point) 

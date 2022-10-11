@@ -1,16 +1,18 @@
 # Server Side Programming Final Exam 
 ## Semester 1 Year 2565
-### ชุดที่ 2 Frontend
+### ชุดที่ 2 Frontend (35 points)
 
 1.	fork project จาก https://github.com/nattaponkum/nv-webblog-65final-client.git (5 point)
 2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.31.27.240:8081 (5 point) 
     *** ถ้าแก้ไขไม่ได้ ให้ส่ง Git Repository ของ Bacakend ที่ใช้ในการทำสอบด้วย ***
 3.	สร้างหน้า UI สำหรับ Create (5 point), Read (5 point), Update (5 point), Delete (5 point)
     ข้อมูลจาก API ที่ตนเองได้รับ โดยใช้โค้ดเดิมที่เป็นการ CRUD ของ API User เป็นตัวอย่างได้
-
+4.  push code ที่ทำเสร็จแล้วขึ้น Git Repository ที่ได้ Fork มา (5 point) 
+    *** ถ้า push ขึ้นไม่ได้ ให้ upload files ขึ้น Git Repository เอง ***  
     โดยให้นำรหัสนิสิตตนเอง mod 4 ได้ค่าเท่าไหร่นั่นคือหมายเลข API ที่นิสิตต้องแก้ไขหน้า UI 
-เช่น รหัสนิสิต 63310001 % 4 = 1 ให้นิสิตทำ API หมายเลข 1. Car เป็นต้น
-
+เช่น รหัสนิสิต 63310001 % 4 = 1 ให้นิสิตทำ API หมายเลข 1. Car เป็นต้น  
+### การส่งงาน
+    ส่ง URL ของ Git Repository  
 ## ตัวอย่าง Json payload สำหรับ API หมายเลขต่างๆ
 ### 1. Car 
 endpoint for get all cars: GET http://10.31.27.240:8081/cars  

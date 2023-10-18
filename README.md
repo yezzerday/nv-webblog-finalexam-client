@@ -2,7 +2,7 @@
 ## Semester 1 Year 2565
 ### ชุดที่ 2 Frontend (35 points)
 
-1.	fork project จาก [https://github.com/nattaponkum/nv-webblog-65final-client.git](https://github.com/nattaponkum/nv-webblog-finalexam-client.git) (5 point)
+1.	fork project จาก https://github.com/nattaponkum/nv-webblog-finalexam-client.git (5 point)
 2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.31.27.240:8081 (5 point) 
     *** ถ้าแก้ไขไม่ได้ ให้ส่ง Git Repository ของ Bacakend ที่ใช้ในการทำสอบด้วย ***
 3.	สร้างหน้า UI สำหรับ Create (5 point), Read (5 point), Update (5 point), Delete (5 point)

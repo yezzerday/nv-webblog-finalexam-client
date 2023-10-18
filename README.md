@@ -1,5 +1,5 @@
 # Server Side Programming Final Exam 
-## Semester 1 Year 2565
+## Semester 1 Year 2566
 ### ชุดที่ 2 Frontend (35 points)
 
 1.	fork project จาก https://github.com/nattaponkum/nv-webblog-finalexam-client.git (5 point)
@@ -11,11 +11,12 @@
     *** ถ้า push ขึ้นไม่ได้ ให้ upload files ขึ้น Git Repository เอง ***  
     โดยให้นำรหัสนิสิตตนเอง mod 4 ได้ค่าเท่าไหร่นั่นคือหมายเลข API ที่นิสิตต้องแก้ไขหน้า UI 
 
-เช่น รหัสนิสิต 63310001 % 4 = 1 
+เช่น รหัสนิสิต 64310001 % 4 = 1 
     ให้นิสิตทำ API หมายเลข 1. Course เป็นต้น  
 ### การส่งงาน
     ส่ง URL ของ Git Repository  
-## ตัวอย่าง Json payload สำหรับ API หมายเลขต่างๆ
+
+## Endpoint ทั้งหมด และตัวอย่าง Json payload สำหรับ API หมายเลขต่างๆ
 ### 0. Car 
 endpoint for get all cars: GET http://10.10.59.14:8081/cars  
 endpoint for get 1 car: GET http://10.10.59.14:8081/car/carId  
@@ -99,12 +100,3 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

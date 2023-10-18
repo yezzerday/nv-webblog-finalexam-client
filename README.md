@@ -3,7 +3,7 @@
 ### ชุดที่ 2 Frontend (35 points)
 
 1.	fork project จาก https://github.com/nattaponkum/nv-webblog-finalexam-client.git (5 point)
-2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.31.27.240:8081 (5 point) 
+2.	แก้ไขให้ยิง request data ไปหา backend ที่ http://10.10.59.14:8081 (5 point) 
     *** ถ้าแก้ไขไม่ได้ ให้ส่ง Git Repository ของ Bacakend ที่ใช้ในการทำสอบด้วย ***
 3.	สร้างหน้า UI สำหรับ Create (5 point), Read (5 point), Update (5 point), Delete (5 point)
     ข้อมูลจาก API ที่ตนเองได้รับ โดยใช้โค้ดเดิมที่เป็นการ CRUD ของ API User เป็นตัวอย่างได้

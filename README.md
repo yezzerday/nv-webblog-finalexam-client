@@ -8,7 +8,7 @@
 3.	สร้างหน้า UI สำหรับ Create (5 point), Read (5 point), Update (5 point), Delete (5 point)
     ข้อมูลจาก API ที่ตนเองได้รับ โดยใช้โค้ดเดิมที่เป็นการ CRUD ของ API User เป็นตัวอย่างได้
 4.  push code ที่ทำเสร็จแล้วขึ้น Git Repository ที่ได้ Fork มา (5 point) 
-    *** ถ้า push ขึ้นไม่ได้ ให้ upload files ขึ้น Git Repository เอง ***  
+    *** ถ้า push ขึ้นไม่ได้ ให้ upload files ขึ้น Git Repository เอง (ไม่ได้คะแนนในข้อ 4)***  
     โดยให้นำรหัสนิสิตตนเอง mod 4 ได้ค่าเท่าไหร่นั่นคือหมายเลข API ที่นิสิตต้องแก้ไขหน้า UI 
 
 เช่น รหัสนิสิต 64310001 % 4 = 1 
